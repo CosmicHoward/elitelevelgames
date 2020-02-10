@@ -1,0 +1,540 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: white;
+	font-family: 'Opens Sans', sans-serif;
+	}
+
+header {
+	background-color: white;
+	margin-bottom: -22px;
+}
+
+footer {
+	background-color: black;
+	width: 100%;
+	text-align: center;
+	color: white;
+	overflow: auto;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.icon {
+	display: none;
+}
+
+.fa-facebook {
+	padding: 30px 33px;
+	color: black;
+	background-color: #51B848;
+	margin: 0 7px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+
+}
+
+.fa-facebook:hover {
+	color: white;
+	background-color: #4077BC;
+	transition: all .25s ease-in-out;
+}
+
+#facebook {
+	font-size: 30px;
+
+}
+
+#twitter {
+	font-size: 30px;
+}
+
+#instagram {
+	font-size: 30px;
+}
+
+.fa-twitter {
+	padding: 30px;
+	color: black;
+	background-color: #51B848;
+	margin: 0 7px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+
+.fa-twitter:hover {
+	color: white;
+	background-color: #4077BC;
+	transition: all .25s ease-in-out;
+}
+
+.fa-instagram {
+	padding: 30px;
+	color: black;
+	background-color: #51B848;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 7px;
+	border-radius: 50%;
+}
+
+.fa-instagram:hover {
+	color: white;
+	background-color: #4077BC;
+	transition: all .25s ease-in-out;
+}
+
+.btn {
+	border-style: none;
+	border-radius: 4px;
+	padding: 16px 20px;
+	margin: 5px auto;
+	width: 394px;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all .25s ease-in-out;
+}
+
+.btn:hover {
+	background-color: white;
+}
+
+.blue {
+	background-color: #4077BC;
+}
+
+.blue:hover {
+	color: #4077BC;
+}
+
+.green {
+	background-color: #51B848;
+}
+
+.green:hover {
+	color: #51B848;
+}
+
+.content-block {
+	margin: auto;
+	width: 80%;
+	overflow: auto;
+	padding: 10px;
+	background-color: #C3C3C3;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#welcome-block {
+	background: dimgray;
+	background-image: url("images/play-glass-color-colorful-bead-art.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+	text-align: center;
+	color: white;
+	letter-spacing: 2px;
+	text-shadow: 3px 2px #4077BC;
+}
+
+#newsletter-form {
+	grid-template-columns: auto;
+}
+
+#mc_embed_signup {
+	margin: 0 auto;
+	padding: 20px 0;
+	grid-template-columns: auto;
+}
+
+#aon-logo {
+	float: right;
+	background-color: white;
+	width: 50%;
+}
+
+#kickstarter {
+	display: none;
+}
+
+#elg-logo {
+	padding-top: 25px;
+	width: 20%;
+	height: 20%;
+}
+
+#desktop-nav {
+	display: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	.icon {
+		display: block;
+	}
+
+	/* Style the navigation menu */
+	.topnav {
+	  overflow: hidden;
+	  position: relative;
+	}
+
+	/* Hide the links inside the navigation menu (except for logo/home) */
+	.topnav #nav-links {
+		display: none;
+		background-color: #51B848;
+	}
+
+	#nav-links a:hover {
+		background-color: #333;
+		color: white;
+		transition: all .30s ease-in-out;
+	}
+
+	#nav-links a:active {
+		background-color: #333;
+		color: white;
+	}
+
+	/* Style navigation menu links */
+	.topnav a {
+	 	color: black;
+		padding: 14px 16px;
+		text-decoration: none;
+		letter-spacing: 3px;
+		font-size: 17px;
+		display: block;
+		text-align: center;
+	}
+
+	/* Style the hamburger menu */
+	.topnav a.icon {
+		background: #51B848;
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+		color: #333;
+	}
+
+	/* Add a background color on mouse-over */
+	.topnav a:hover {
+		color: white;
+	}
+
+	/* Style the active link (or home/logo) */
+	.active {
+	  background-color: #4CAF50;
+	  color: white;
+	}
+
+	#welcome-block {
+		height: 300px;
+		margin-bottom: 15px;
+		margin-top: 22px;
+	}
+
+	#welcome-block h1 {
+		padding-top: 130px;
+	}
+
+	.content-block {
+		padding: 0;
+		width: 95%;
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+
+	.content-block p {
+		padding: 0 30px;
+		text-align: justify;
+		line-height: 30px;
+	}
+
+	#mce-EMAIL, #mce-FNAME, #mce-LNAME {
+		width: 394px;
+		padding: 16px 0;
+		margin-bottom: 7px;
+	}
+
+	#mc_embed_signup {
+		margin-top: -35px;
+	}
+
+	#mc_embed_signup_scroll h2 {
+		padding: 0 15px;
+	}
+
+	#aon-content {
+		padding-bottom: 15px;
+	}
+
+	#elg-text-logo {
+		height: 70%;
+		width: 400px;
+		display: block;
+		padding-top: 15px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#aon-logo {
+		float: none;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #C3C3C3;
+		padding: 20px 0;
+		margin: 0 auto;
+		width: 99.5%;
+		object-fit: contain;
+	}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+	header {
+		margin-bottom: -31px;
+	}
+
+	#welcome-block {
+		height: 450px;
+		margin-top: -20px;
+	}
+
+	#welcome-block h1 {
+		padding-top: 195px;
+		font-size: 45px;
+	}
+
+	.icon {
+		display: block;
+	}
+
+		/* Style the navigation menu */
+	.topnav {
+	  overflow: hidden;
+	  position: relative;
+	}
+
+	/* Hide the links inside the navigation menu (except for logo/home) */
+	.topnav #nav-links {
+		display: none;
+		background-color: #51B848;
+	}
+
+	#nav-links a:hover {
+		background-color: #333;
+		color: white;
+		transition: all .30s ease-in-out;
+	}
+
+	#nav-links a:active {
+		background-color: #333;
+		color: white;
+	}
+
+	/* Style navigation menu links */
+	.topnav a {
+	 	color: black;
+		padding: 14px 16px;
+		text-decoration: none;
+		letter-spacing: 3px;
+		font-size: 17px;
+		display: block;
+		text-align: center;
+	}
+
+	/* Style the hamburger menu */
+	.topnav a.icon {
+		background: #51B848;
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+		color: #333;
+	}
+
+	/* Add a background color on mouse-over */
+	.topnav a:hover {
+		color: white;
+	}
+
+	/* Style the active link (or home/logo) */
+	.active {
+	  background-color: #4CAF50;
+	  color: white;
+	}
+
+	.content-block {
+		display: grid;
+		grid-template-columns: auto 50%;
+		grid-column-gap: 20px;
+		width: 90%;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		font-size: 20px;
+	}
+
+	.content-block p {
+		line-height: 30px;
+		text-align: justify;
+	}
+
+	.btn {
+		width: 250px;
+	}
+
+	#mc-embedded-subscribe {
+		width: 500px;
+		margin-top: 10px;
+	}
+
+	#mce-EMAIL, #mce-FNAME, #mce-LNAME {
+		width: 500px;
+		padding: 16px 0;
+		margin-bottom: 7px;
+	}
+
+	#aon-content {
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+	}
+
+	#elg-text-logo {
+		width: 590px;
+		padding-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#aon-logo {
+		width: 100%;
+		height: 100%;
+		grid-column-start: 1;
+		grid-column-end: 2;
+		object-fit: contain;
+		margin-left: -11px;
+		margin-top: -11px;
+		padding: 10px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+	header {
+		margin-bottom: -33px;
+	}
+
+	.content-block {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		width: 90%;
+		grid-template-columns: 50% auto;
+	}
+
+	.btn {
+		width: 290px;
+	}
+
+	#welcome-block h1 {
+		font-size: 50px;
+	}
+
+	#elg-text-logo {
+		height: 70%;
+		width: 700px;
+		display: block;
+		padding-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#aon-logo {
+		object-fit: contain;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.icon {
+		z-index: -1;
+	}
+
+	.content-block {
+		grid-template-columns: auto 50%;
+		width: 90%;
+	}
+
+	#desktop-nav {
+		display: inherit;
+	}
+
+	#desktop-nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: black;
+	}
+
+	#desktop-nav li {
+		float: left;
+	}
+
+	#desktop-nav li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 24px;
+		text-decoration: none;
+	}
+
+	#desktop-nav li a:hover {
+		background-color: #51B848;
+	}
+
+	#elg-logo {
+		height: 15%;
+		width: 15%;
+	}
+
+	#elg-text-logo {
+		width: 85%;
+		height: 40%;
+		object-fit: contain;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+	.content-block {
+		grid-template-columns: auto 50%;
+		width: 90%;
+	}
+
+	#elg-logo {
+		height: 10%;
+		width: 10%;
+	}
+
+	#elg-text-logo {
+		height: 200px;
+		object-fit: scale-down;
+	}
+}

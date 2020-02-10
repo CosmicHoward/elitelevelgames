@@ -1,0 +1,175 @@
+/* CSS Document */
+
+.content {
+	background-color: #C3C3C3;
+	margin: 40px auto;
+	padding: 10px;
+	width: 80%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#childnav {
+	margin-bottom: 50px;
+}
+
+#childnav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#AoN-alt-logo {
+	margin: auto;
+	border-style: solid none;
+	border-width: thin;
+	padding: 20px 0;
+}
+
+#AoN-alt-logo img {
+	width: 500px;
+	
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.header-container {
+		display: grid;
+		justify-content: center;
+		grid-template-columns: auto;
+		grid-template-rows: auto auto;
+	}
+	
+	.social-link {
+		display: none;
+	}
+	
+	#elg-child-logo {
+		float: none;
+		width: 400px;
+		margin: 20px auto;
+	}
+	
+	#childnav li {
+		text-align: center;
+		padding: 10px 0;
+	}
+	
+	#AoN-alt-logo {
+		display: grid;
+		justify-content: center;
+	}
+	
+	#AoN-alt-logo img {
+		width: 380px;
+		padding-right: 7px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.header-container {
+		display: grid;
+		justify-content: center;
+		grid-template-columns: auto;
+		grid-template-rows: auto auto;
+	}
+	
+	.social-link {
+		display: none;
+	}
+	
+	#elg-child-logo {
+		float: none;
+		width: 550px;
+		margin: 20px auto;
+	}
+	
+	#childnav li {
+		text-align: center;
+	}
+	
+	#AoN-alt-logo {
+		display: grid;
+		justify-content: center;
+	}
+	
+	#AoN-alt-logo img {
+		width: 500px;
+		padding-right: 10px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	#elg-child-logo {
+		width: 700px;
+	}
+	
+	#AoN-alt-logo img {
+		width: 650px;
+	}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	header {
+		height: 120px;
+	}
+	
+	.header-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+	}
+	
+	.social-link {
+		display: block;
+	}
+	
+	#elg-child-logo {
+		width: 400px;
+		margin-left: 20px;
+	}
+	
+	#childnav {
+		margin-top: 20px;
+		margin-left: 20px;
+		height: 85px;
+		flex-grow: 2;
+	}
+	
+	#childnav ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+	
+	#childnav li {
+		text-align: center;
+		padding: 20px 20px;
+		margin: 20px 0;
+	}
+	
+	#childnav li:hover {
+		background-color: #51B848;
+		transition: all .25s ease-in-out;
+		color: white;
+	}
+	
+	#childnav li a {
+		display: block;
+	}
+	
+	#AoN-alt-logo {
+		margin-top: 42px;
+	}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	
+	#childnav li {
+		padding: 20px 35px;
+	}
+}
